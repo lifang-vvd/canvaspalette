@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/canvas.css">
+    <script src="js/jquery.js"></script>
+    <script src="js/canvas.js"></script>
+    <script src="js/shape.js"></script>
+
+</head>
+<body>
+<div class="box">
+    <div class="nav">
+        <ul>
+            <li class="color">文件</li>
+            <li>画图</li>
+            <li>样式</li>
+            <li>条纹</li>
+            <li>颜色</li>
+            <li>檫除</li>
+        </ul>
+    </div>
+    <div class="nav-left" style="background:#4d4d4d;">
+        <div class="wenjian lefts">
+            <ul class="xian">
+                <li class="color set">新建</li>
+                <li class="save">保存</li>
+                <li data-role="back">后退</li>
+            </ul>
+        </div>
+        <div class="huatu lefts">
+            <ul>
+                <li data-role="pencil">笔</li>
+                <li data-role="line">线</li>
+                <li data-role="rect">矩</li>
+                <li data-role="arc">圆</li>
+                <li data-role="jiao">角</li>
+                <li data-role="bian">边</li>
+            </ul>
+        </div>
+        <div class="yangshi lefts">
+            <ul>
+                <li data-role="stroke">边框</li>
+                <li data-role="fill">填充</li>
+            </ul>
+        </div>
+        <div class="tiaowen lefts">
+            <ul>
+                <li data-role="1">细</li>
+                <li data-role="5">中</li>
+                <li data-role="10">粗</li>
+                <li><input type="number" placeholder="请输入线条宽度"></li>
+            </ul>
+        </div>
+        <div class="yanse lefts">
+            <ul>
+                <li><input type="color"></li>
+                <li><input type="color"></li>
+            </ul>
+        </div>
+        <div class="chachu lefts">
+            <ul>
+                <li> <input type="number" placeholder="请输入橡皮擦大小" > </li>
+            </ul>
+        </div>
+    </div>
+    <div class="canvas">
+        <canvas width="700" height="370"></canvas>
+        <div class="copy"></div>
+        <div class="xp"></div>
+    </div>
+</div>
+</body>
+</html>
